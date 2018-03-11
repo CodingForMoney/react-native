@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license                 = { :type => "MIT"}
   s.author                  = "Facebook"
   s.source                  = { :git => "https://github.com/CodingForMoney/react-native.git", :tag => s.version}
-  # s.default_subspec         = "Core"
+  s.default_subspec         = "Core"
   s.header_dir              = "React"
   s.requires_arc            = true
   s.platforms               = { :ios => "8.0", :tvos => "9.2" }
